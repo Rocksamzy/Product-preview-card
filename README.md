@@ -35,8 +35,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution Code]([https://your-solution-url.com](https://github.com/Rocksamzy/Product-preview-card.git
+))
+- Live Site URL: [Solution Page]([https://your-live-site-url.com](https://rocksamzy.github.io/Product-preview-card/))
 
 ## My process
 
@@ -80,6 +81,9 @@ I would like to improve more on positioning, more especially to maintain my pre-
 - Website - [Ebuka Emmanuel Uzochukwu](https://www.github.com/rocksamzy)
 - Frontend Mentor - [@rocksamzy](https://www.frontendmentor.io/profile/rocksamzy)
 - Twitter - [@King Nebukar](https://www.twitter.com/valyrianmaester)
+- Facebook - [@Ebuka Emmanuel Uzochukwu](https://www.facebook.com/bukar.schwartz)
+- Linkedin - [@Ebuka Emmanuel Uzochukwu](https://www.linkedin.com/in/ebuka-emmanuel-uzochukwu-a0145219b
+)
 
 
 
