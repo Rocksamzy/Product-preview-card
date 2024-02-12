@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Monsterrat ('https://fonts.google.com/specimen/Montserrat');
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+.card {
+    display: inline-flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 8px 8px 8px 8px;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.3);
+}
+.image_card {
+    display: inline-flex;
+    width: 230px;
+    height: auto;
+}
+.image_card img {
+    width: 230px;
+    border-radius: 8px 0px 0px 8px;
+}
+.image_card #mobile_img {
+    display: none;
+}
+.product_card {
+    display: block;
+    width: 230px;
+    height: auto;
+    padding: 24px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0px 8px 8px 0px;
+}
+p {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    margin-bottom: 20px;
+
+}
+#heading {
+    color: hsl(228, 12%, 48%);
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+}
+h1 {
+    color: hsl(212, 21%, 14%);
+    font-size: 24px;
+    line-height: 1em;
+    font-weight: 700;
+    font-family: src ('https://fonts.google.com/specimen/Fraunces'), Fraunces;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+#price {
+    color: hsl(158, 36%, 37%);
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+#price span {
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through hsl(228, 12%, 48%) 0.5px;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    bottom: 4px;
+    left: 12px;
+}
+button {
+    width: 100%;
+    padding: 8px;
+    border: 0px;
+    border-radius: 6px;
+    color: hsl(0, 0%, 100%);
+    font-weight: bolder;
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: hsl(158, 36%, 37%);
+    cursor: pointer;
+}
+button:hover {
+    background-color:  hsl(158, 36%, 25%);
+}
+
+/* ---FOOTER--- */
+.attribution {
+    font-size: 11px;
+    text-align: center; 
+    position: absolute;
+    top: 96%;
+    left: 41%;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* ====SCREEN RESPONSIVENESS==== */
+
+/* ---For mobile screen max-size 1024px--- */
+@media (max-width: 1024px) {
+    .attribution {
+        position: absolute;
+        top: 97%;
+        left: 38%;
+    }
+}
+
+/* ---For mobile screen max-size 430px--- */
+@media (max-width: 430px) {
+    .card {
+        display: block;
+    }
+    .image_card {
+        border-radius: 8px 8px 0px 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .image_card img {
+        display: none;
+    }
+    .image_card #mobile_img {
+        display: block;
+        width: 290px;
+        border-radius: 8px 8px 0px 0px;
+    }
+    .product_card {
+        width: 290px;
+        border-radius: 0px 0px 8px 8px;
+    }
+    .attribution {
+        position: absolute;
+        top: 97%;
+        left: 22%;
+    }
+}
+
+/* ---For mobile screen max-size 375px--- */
+@media (max-width: 375px) {
+    .attribution {
+        position: absolute;
+        top: 99%;
+        left: 17%;
+    }
+}
